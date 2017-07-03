@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvmiembro_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre : "/>
+
+    <EditText
+        android:id="@+id/et_miembro_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellidos : "/>
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : "/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnEliminar"
+            android:layout_alignBottom="@+id/btnEliminar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="49dp"
+            android:layout_marginStart="49dp"
+            android:text="Actualizar" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnActualizar"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/btnActualizar"
+            android:layout_marginBottom="124dp"
+            android:text="Eliminar" />
+
+    </LinearLayout>
+
+</LinearLayout>

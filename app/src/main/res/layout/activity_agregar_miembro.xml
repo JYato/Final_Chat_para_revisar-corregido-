@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/tvmiembro_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre : "/>
+
+    <EditText
+        android:id="@+id/et_miembro_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellidos : "/>
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : "/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnAgregarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Agregar" />
+
+</LinearLayout>

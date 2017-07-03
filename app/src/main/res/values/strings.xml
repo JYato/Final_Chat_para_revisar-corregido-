@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="Name">Contacto X</string>
+    <string name="more">A todos</string>
+    <string name="Enviar">Enviar</string>
+    <string name="EA">Escriba aqui</string>
+</resources>
